@@ -6,7 +6,7 @@ __The Data__
 
 To produce the data for the plots, I imported the documents (already OCRed) from a MongoDB database into Pandas and created unigrams, bi-grams, and tri-grams using the NLTK library, after cleaning and pre-processing the text to remove unwanted text and characters (stopwords, punctuation, email addresses, etc.).
 
-In addition, I improved upon the estimated dates. Only a small fraction of the documents in the repository have any date associated with them: an estimated year. As this was clearly a problem for a timeline, I used [Datefinder](http://datefinder.readthedocs.org/en/latest/) to estimate the month, day, and year of the documents. This doubled the number of documents with dates, and offered more temporal precision.
+In addition, I am attempting to improve upon the estimated dates. Only a small fraction of the documents in the repository have any date associated with them: an estimated year. As this was clearly a problem for a timeline, I'm using [Datefinder](http://datefinder.readthedocs.org/en/latest/) to estimate the month, day, and year of the documents. This potentially could double the number of documents with dates, and also offer more temporal precision. See "feature engineering" (work in progress).
 
 __The Plot__
 
